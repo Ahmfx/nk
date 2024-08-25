@@ -14,14 +14,14 @@ YrUsername = "@ltc59" # يوزر حسابك التلي
 def usernames():
     k = ''.join(choice('qwertyuiopasdfghjklzxcvbnm') for i in range(1))
     n = ''.join(choice('1234567890') for i in range(1))
-    c = ''.join(choice('qwertyuiopasdfghjklzxcvbnm1234567890') for i in range(1))
+    c = ''.join(choice('1234567890') for i in range(1))
     z = ''.join(choice('qwertyuiopasdfghjklzxcvbnm') for i in range(1))
     g = ''.join(choice('qwertyuiopasdfghjklzxcvbnm') for i in range(1))
     i = ''.join(choice('i') for i in range(1)) 
     e = ''.join(choice('8') for i in range(1))
     d = ''.join(choice('d') for i in range(1)) 
     u1 = g + k + z + e + e + e
-    u2 = g + n + c + e + e + e
+    u2 = g + c + c + e + e + e
     u3 = i + d + n + e + e + e
     s = u1,u2,u3
     return choice(s)
